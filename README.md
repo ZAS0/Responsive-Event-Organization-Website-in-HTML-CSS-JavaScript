@@ -1,2 +1,2 @@
 # Responsive-Event-Organization-Website-in-HTML-CSS-JavaScript
-Hey guys in this article we make a Responsive Event Organization Website in HTML CSS and JavaScript
+Hey guys we made a Responsive Event Organization Website with HTML CSS and JavaScript
