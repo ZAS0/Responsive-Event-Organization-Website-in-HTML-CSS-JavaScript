@@ -1,4 +1,4 @@
-window.addEventListener("load", function(){
+window.addEventListener("load", function popit(){
   setTimeout(
       function open(event){
           document.querySelector(".popup").style.display = "block";
@@ -8,9 +8,18 @@ window.addEventListener("load", function(){
 });
 
 
-document.querySelector("#close").addEventListener("click", function(){
+document.querySelector("#close").addEventListener("click", function closeit(){
   document.querySelector(".popup").style.display = "none";
 });
+
+LogIn=document.getElementById("Log-in")
+LogIn.addEventListener("click",function()
+{
+  document.querySelector(".popup").style.display = "block";
+  
+})
+
+
 
 let menu = document.querySelector("#menu-bars");
 let navbar = document.querySelector(".navbar");
